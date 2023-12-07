@@ -4,6 +4,12 @@
     margin: 100px auto;
 }
 
+#banner img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
 .about_company h1 {
     font-family: 'Playfair Display', serif;
 }
