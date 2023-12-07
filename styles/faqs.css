@@ -1,0 +1,38 @@
+.faqs {
+    margin: 100px auto;
+    width: 70%;
+}
+
+.faqs h2 {
+    text-align: center;
+}
+
+.accordion {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+    transition: 0.5s;
+    margin: 20px 20px 0 20px;
+}
+
+.active, .accordion:hover {
+    background-color: #fff8ef; 
+}
+ 
+.panel {
+    margin: 0 20px;
+    display: none;
+    overflow: hidden;
+    background-color: #fff8ef;
+    width: 100%;
+}
+
+.panel p {
+    padding: 0 20px;
+}
