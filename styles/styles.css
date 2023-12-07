@@ -5,6 +5,10 @@ body, header, a, nav, main, footer, img, h1, h4, ul, label, legend, fieldset {
 	border: 0;
 }
 
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
 main {
     clear: left;
 }

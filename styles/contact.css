@@ -12,6 +12,10 @@ body {
     height: 300px;
 }
 
+#contact h2 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
 label {
     display: block;
     padding-top: 20px;
