@@ -1,0 +1,42 @@
+#contact {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+#form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.cust-info {
+    width: 100%;
+    padding: 8px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.map {
+    border: 4px solid #B88E2F;
+}
+
+.checkbox {
+
+}
+
+.reset {
+    color: #B88E2F;
+    background-color: #fff;
+    padding: 16px 32px;
+    border: 2px solid #B88E2F;
+    font-family: 'Mulish', sans-serif;
+}

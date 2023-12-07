@@ -1,0 +1,74 @@
+.about_company {
+    width: 70%;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.about_company h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.about_company p {
+    color: #737373;
+    font-weight: 400;
+}
+
+.story {
+    display: grid;
+    gap: 40px;
+    margin: 0 120px;
+}
+
+.item1 {
+    grid-column: 1/ span 2;
+    grid-row: 1;
+}
+
+.item1 img {
+    height: 660px;
+    width: 100%;
+}
+
+.item2 {
+    grid-column: 3;
+    grid-row: 1;
+    margin: 80px 0;
+}
+
+.item2 h1 {
+    font-family: 'Dancing Script', cursive; 
+    font-size: 3em;
+}
+
+.item2 h4 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.item2 p {
+    font-family: 'Mulish', sans-serif;
+    color: #737373;
+    line-height: 160%;
+    margin-top: 24px;
+}
+
+.features {
+    background-color: #F5F5F5;
+    padding: 100px;
+    display: flex;
+}
+
+.icons-container {
+    text-align: center;
+    margin: auto;
+}
+
+.icons {
+    font-size: 24px;
+}
+
+.features-desc {
+    line-height: 0;
+    color: #737373;
+}
