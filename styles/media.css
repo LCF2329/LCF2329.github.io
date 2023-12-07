@@ -1,0 +1,28 @@
+.media {
+    margin-top: 100px;
+}
+
+.media h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin: 60px auto 0 auto;
+    width: 80%;
+}
+
+.column {
+    width: 50%;
+    margin: 0 20px;
+}
+
+.column p {
+    padding: 20px 0;
+}
+
+.column img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
