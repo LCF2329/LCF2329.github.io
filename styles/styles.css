@@ -47,46 +47,98 @@ video {
 }
 
 header {
-    width: 25%;
-	float: left;
+    width: 100%;
 	padding-bottom: 0;
-	margin: 16px;
+    text-align: center;
+    margin-top: 20px;
 }
+
 header img {
     width: 70%;
     height: auto;
+    margin: 0 auto;
 }
 
-/* Desktop Viewport: Styles rules for nav area */
 nav {
-	text-align: center;
-	float: right;
-	width: 70%;
-	margin: 1em 0;
+    text-align: center;
+    float: right;
+    width: 100%;
+    margin: 1em 0;
 }
 
 nav ul {
-	text-align: right;
-	list-style-type:none;
-	margin: 0;
-	text-align: center;
-	float: right;
+    list-style-type:none;
+    margin: 0;
+    text-align: center;
+    float: right;
+    width: 100%;
+    display: block;
 }
 
 nav li {
-	border: none;
-	display: inline-block;
-	font-size: 1em;
-	font-family: 'Mulish', sans-serif;
+    border: none;
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'Mulish', sans-serif;
     font-weight: 300;
+    display: block;
 }
 
 nav li a {
-	display: block;
-	color: #1A1A1A;
-	margin: 0 1em;
-    padding: 0.5em;
-	text-decoration: none;
+    display: block;
+    color: #1A1A1A;
+    margin: 0 1em;
+    padding: 1em;
+    text-decoration: none;
+}
+
+/* Media Query for Tablet Viewport */
+/*Tablet Viewport: Show tablet-desktop class, hide mobile class */
+@media screen and (min-width: 630px), print {
+
+    /*Desktop Viewport: Style rules for header area */
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+        margin: 16px;
+    }
+
+    /* Desktop Viewport: Styles rules for nav area */
+    .mobile-nav {
+        display: none;
+    }
+
+    nav {
+        text-align: center;
+        float: right;
+        width: 70%;
+        margin: 1em 0;
+    }
+
+    nav ul {
+        text-align: right;
+        list-style-type:none;
+        margin: 0;
+        text-align: center;
+        float: right;
+    }
+
+    nav li {
+        border: none;
+        display: inline-block;
+        font-size: 1em;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 300;
+    }
+
+    nav li a {
+        display: block;
+        color: #1A1A1A;
+        margin: 0 1em;
+        padding: 0.5em;
+        text-decoration: none;
+    }
 }
 
 .active {
