@@ -77,3 +77,13 @@
     line-height: 0;
     color: #737373;
 }
+
+.why-us {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.why-us h2 {
+    text-align: center;
+}
+
