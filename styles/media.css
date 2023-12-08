@@ -32,3 +32,27 @@
     width: 100%;
     object-fit: cover;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    grid-gap: 24px;
+    width: 70%;
+    margin: auto;
+}
+
+.audio img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#music-sample h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+audio {
+    margin-top: 20px;
+}
