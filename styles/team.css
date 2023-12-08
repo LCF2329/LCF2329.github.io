@@ -78,6 +78,16 @@ aside, article {
     margin: auto;
 }
 
+aside {
+    width: 70%;
+}
+
+aside img {
+    margin-top: 40px;
+    height: 500px;
+    object-fit: cover;
+}
+
 aside h2 {
     font-family: 'Playfair Display', serif;
 }

@@ -48,13 +48,9 @@ header {
 	padding-bottom: 0;
 	margin: 16px;
 }
-
-header a {
-    font-family: 'Playfair Display', serif;
-    font-size: 2em;
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
+header img {
+    width: 70%;
+    height: auto;
 }
 
 /* Desktop Viewport: Styles rules for nav area */
