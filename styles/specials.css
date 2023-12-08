@@ -1,0 +1,126 @@
+#banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.weekly-product {
+    text-align: center;
+    width: 80%;
+    margin: 24px auto;
+    position: relative;
+}
+
+.product-desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    opacity: 0.6;
+    padding: 24px;
+}
+
+.product-desc h2 {
+    color: #fff;
+}
+
+.weekly-product h2 {
+    font-family: 'Playfair-Display', serif;
+}
+
+.weekly-product img {
+    border-radius: 20px;
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.weekly-product p {
+    font-weight: 300;
+    padding-top: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.weekly-sale {
+    background-color: #eee;
+    padding: 40px 0;
+    margin: 60px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+    padding: 40px;
+}
+
+.grid-container h2 {
+    text-align: center;
+}
+
+.grid-container img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.grid-container img:hover {
+    opacity: 0.7;
+}
+
+.weekly-sale h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.weekly-sale figcaption {
+    color: #000;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+figcaption p{
+    line-height: 8px;
+}
+
+figcaption:hover {
+    background-color: #B88E2F;
+    color: #fff;
+}
+
+.product {
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.product:hover {
+    border: 2px solid #B88E2F;
+    transition: 0.3s;
+}
+
+@-webkit-keyframes text-animation {
+    0% { font-size: 1em; }
+    50% { font-size: 2em; }
+    100% { font-size: 1.35em; }
+}
+
+@keyframes text-animation { 
+    0% { font-size: 1em; }
+    50% { font-size: 2em; }
+    100% { font-size: 1.35em; }
+}
+
+.product-desc {
+    -webkit-animation-name: text-animation;
+    animation-name: text-animation;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s; 
+}
